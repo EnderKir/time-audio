@@ -56,15 +56,15 @@ export const playMinAudio = () => {
         if (second === 0) {
             // eslint-disable-next-line default-case
             switch (first) {
-                case 10 : minUrl = '/audio/hours/ten.mp3'
+                case 1 : minUrl = '/audio/hours/ten.mp3'
                     break;
-                case 20 : minUrl = '/audio/min/20.mp3'
+                case 2 : minUrl = '/audio/min/20.mp3'
                     break;
-                case 30 : minUrl = '/audio/min/30.mp3'
+                case 3 : minUrl = '/audio/min/30.mp3'
                     break;
-                case 40 : minUrl = '/audio/min/40.mp3'
+                case 4 : minUrl = '/audio/min/40.mp3'
                     break;
-                case 50 : minUrl = '/audio/min/50.mp3'
+                case 5 : minUrl = '/audio/min/50.mp3'
                     break;
             }
 
