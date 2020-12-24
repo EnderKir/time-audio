@@ -49,6 +49,7 @@ class App extends Component {
         if (Array.isArray(minAudio)) {
             hoursValueAudio.onended = () => minAudio[0].play();
             minAudio[0].onended = () => minAudio[1].play();
+            minAudio[1].onended = () => minValueAudio.play();
         } else {
             hoursValueAudio.onended = () => minAudio.play();
             minAudio.onended = () => minValueAudio.play();

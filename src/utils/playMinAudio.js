@@ -115,15 +115,15 @@ export const playMinAudio = () => {
 
             // eslint-disable-next-line default-case
             switch (first) {
-                case 10 : firstUrl = '/audio/hours/ten.mp3'
+                case 1 : firstUrl = '/audio/hours/ten.mp3'
                     break;
-                case 20 : firstUrl = '/audio/min/20.mp3'
+                case 2 : firstUrl = '/audio/min/20.mp3'
                     break;
-                case 30 : firstUrl = '/audio/min/30.mp3'
+                case 3 : firstUrl = '/audio/min/30.mp3'
                     break;
-                case 40 : firstUrl = '/audio/min/40.mp3'
+                case 4 : firstUrl = '/audio/min/40.mp3'
                     break;
-                case 50 : firstUrl = '/audio/min/50.mp3'
+                case 5 : firstUrl = '/audio/min/50.mp3'
                     break;
             }
 
@@ -149,7 +149,7 @@ export const playMinAudio = () => {
                     break;
             }
 
-            return [new Audio(firstUrl),new Audio(secondUrl)];
+            return [new Audio(firstUrl), new Audio(secondUrl)];
         }
     }
 
